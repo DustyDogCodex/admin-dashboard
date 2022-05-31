@@ -1,0 +1,11 @@
+button{
+    padding: 10px 20px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.sidebar{
+    background: rgb(25, 146, 212);
+    color: rgb(255,255,255);
+}
