@@ -33,7 +33,7 @@ li{
 
 .container{
     display: grid;
-    grid-template-columns: minmax(300px,0.3fr) 4fr;     /* maybe use minmax here to make the sidebar change size according to screen size?*/
+    grid-template-columns: minmax(300px,0.3fr) 4fr;
 }
 
 .dashboard{
@@ -47,16 +47,15 @@ li{
     grid-column: 1/4;
     grid-row: 1/2;
     padding: 10px 20px;
-    border: 1px solid black;
-}
-
-#bell{
-    height: 35px;
-    border-radius: 0;
 }
 
 #magnifyingGlass{
     height: 30px;
+}
+
+#topRight{
+    height: 50px;
+    margin-right: 30px;
 }
 
 .header strong{
@@ -97,10 +96,30 @@ input{
     height: 100vh;
     padding-left: 50px;
 }
+.sidebar div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidebar ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px;
+}
+
+.sidebar svg{
+    margin-right: 15px;
+}
 
 .projects{
     grid-area: 2/1/4/3;
-    border: 1px solid black;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.2fr 1fr 1fr 1fr;
@@ -125,7 +144,6 @@ input{
 
 .annoucements, .trending{
     grid-column: 3/4;
-    border: 1px solid black;
 }
 
 .annoucements{
@@ -179,7 +197,6 @@ input{
 }
 
 .footer{
-    border: 1px solid black;
     text-align: center;
     padding: 0;
     grid-column: 1/4;
