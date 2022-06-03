@@ -11,3 +11,6 @@ From this project I learned:
 5) How to build responsive websites using fractional units and repeat() instead of usinf media queries
 
 I had a lot of fun making this dashboard. I hope you enjoy it too!
+
+This project uses art from:
+<a href="https://www.freepik.com/vectors/badge-logo">Badge logo vector created by rawpixel.com - www.freepik.com</a>
